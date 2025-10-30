@@ -8,6 +8,11 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
+.card-container{
+    background-color:yellow;
+    padding:10px;
+    margin:10px;
+}
 .heading{
     text-align: center;
     color: rgb(193, 151, 151);
@@ -66,4 +71,5 @@ p{
 #bottone1:active {
  transform: scale(1.05);
  box-shadow: 7px 5px 56px -10px #C3D900;
+
 }
