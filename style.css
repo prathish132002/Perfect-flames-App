@@ -14,7 +14,8 @@
 }
 .card-container
 {
-    background-color:yellow;
+    background-color:lightyellow;
+    box-shadow:2px 2px 2px 2px black;
     padding:10px;
     margin:10px;
 }
@@ -84,3 +85,4 @@ p
  transform: scale(1.05);
  box-shadow: 7px 5px 56px -10px #C3D900;
 }
+
