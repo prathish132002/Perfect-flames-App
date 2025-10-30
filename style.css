@@ -1,0 +1,69 @@
+.bg-container{
+    background-image: url("https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d4c078da-3f3a-4235-8ff8-80ce7d8cf5f3.png");
+    margin: 0;
+    background-size: cover;
+    transition: background-image 0.5s ease-in-out;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.heading{
+    text-align: center;
+    color: rgb(193, 151, 151);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+p{
+    text-align: center;
+    color: rgb(255, 230, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: solid underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.element{
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cbc515;
+    font-size: 16px;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button:hover{
+    background-color: #45a049;
+    box-shadow: 2px 2px 10px #888888;
+}
+.resultMsg{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+#bottone1:active {
+ transform: scale(1.05);
+ box-shadow: 7px 5px 56px -10px #C3D900;
+}
