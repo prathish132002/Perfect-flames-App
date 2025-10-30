@@ -1,4 +1,5 @@
-.bg-container{
+.bg-container
+{
     background-image: url("https://user-gen-media-assets.s3.amazonaws.com/seedream_images/d4c078da-3f3a-4235-8ff8-80ce7d8cf5f3.png");
     margin: 0;
     background-size: cover;
@@ -7,13 +8,18 @@
     height: 100vh;
     padding: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card-container{
+.card-container
+{
     background-color:yellow;
     padding:10px;
     margin:10px;
 }
-.heading{
+.heading
+{
     text-align: center;
     color: rgb(193, 151, 151);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,7 +27,8 @@
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px #000000;
 }
-p{
+p
+{
     text-align: center;
     color: rgb(255, 230, 10);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,14 +37,16 @@ p{
     font-size: 20px;
     font-weight: bold;
 }
-.form{
+.form
+{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
-.element{
+.element
+{
     width: 300px;
     height: 35px;
     margin: 10px;
@@ -46,7 +55,8 @@ p{
     border: 1px solid #cbc515;
     font-size: 16px;
 }
-.button{
+.button
+{
     width: 150px;
     height: 40px;
     margin-top: 20px;
@@ -58,11 +68,13 @@ p{
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.button:hover{
+.button:hover
+{
     background-color: #45a049;
     box-shadow: 2px 2px 10px #888888;
 }
-.resultMsg{
+.resultMsg
+{
     color: red;
     font-size: 18px;
     text-align: center;
@@ -71,5 +83,4 @@ p{
 #bottone1:active {
  transform: scale(1.05);
  box-shadow: 7px 5px 56px -10px #C3D900;
-
 }
